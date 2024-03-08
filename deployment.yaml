@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: reddit-clone-app:1.0.0-13
+      app: reddit-clone-app:1.0.0-11
   template:
     metadata:
       labels:
-        app: reddit-clone-app:1.0.0-13
+        app: reddit-clone-app:1.0.0-11
     spec:
       containers:
-        - name: reddit-clone-app:1.0.0-13
-          image: devopsbasic/reddit-clone-app:1.0.0-13
+        - name: reddit-clone-app:1.0.0-11
+          image: devopsbasic/reddit-clone-app:1.0.0-11
           resources:
             limits:
               cpu: "1"

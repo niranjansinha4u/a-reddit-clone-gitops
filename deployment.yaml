@@ -13,7 +13,7 @@ spec:
         app: reddit-clone-app:1.0.0-3
     spec:
       containers:
-        - name: reddit-clone-app:1.0.0-3
+        - name: reddit-clone-app
           image: devopsbasic/reddit-clone-app:1.0.0-3
           resources:
             limits:
